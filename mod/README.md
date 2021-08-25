@@ -2,11 +2,21 @@
 
 Have you seen the hulking menace of Silfae's "Animated Shark Portraits" mod?  Do you wish that the gameplay elements were up-to-date so that you can play the Deep Tide as it was originally designed?  Then this mod is for you!
 
-There are other mods which contain the same portraits, so why should you choose this one?  Other mods don't include the prebuilt empire or custom system initializer, but this onme does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
+There are other mods which contain the same portraits, so why should you choose this one?  Other mods don't include the prebuilt empire or custom system initializer, but this one does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 # Changes
 
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+
+* Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
+* Remove alternate (blank) city graphics - mostly they were to try and get a static diplomacy backdrop but only worked for colonies with city size 4; set the `graphical_culture` to not define a cityset
+* Add a static room that combines the migratory flock room with the static backdrop image - this room is now used by the predefined empire by default
+* Simply female clothing selector toi eliminate duplicate blank choices
+* Update custom starting initializer for 3.0
+* Update prescripted empire for 3.0
+    * Now has Origin: Prosperous Unification
+    * Uses mammalian cities (the original fallback for this empire's graphical culture)
+    * Could already randomly spawn
 
 ## Compatibility
 
@@ -25,14 +35,6 @@ In order for this mod to function, you **must** install the following mod and lo
 ### When to Install
 
 This mod should be added before the game has started.  If you remove it from a game in progress, your game may have graphical problems if any species was using the custom portraits.
-
-## Known Issues
-
-This mod overrides `` in order to add its new initializer to the allowed list, which generates an error like this:
-
-```
-
-```
 
 ## Changelog
 
