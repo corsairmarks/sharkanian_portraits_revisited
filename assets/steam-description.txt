@@ -42,7 +42,7 @@ This mod should be added before the game has started.  If you remove it from a g
 
 [h2]Changelog[/h2]
 
-See [url=]Change Notes[/url]
+See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2585030748]Change Notes[/url]
 
 [h2]Source Code[/h2]
 
