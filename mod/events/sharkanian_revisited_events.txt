@@ -1,7 +1,7 @@
 namespace = sharkanian_evt
 
-@extra_feature_blockers = 4
-@extra_size_blockers = 2
+@extra_feature_blockers = 2
+@extra_size_blockers = 1
 
 # flag mod as active
 event = {
@@ -61,7 +61,7 @@ planet_event = {
 		else_if = {
 			limit = { is_planet_class = pc_relic }
 			while = {
-				count = @extra_size_blockers # relic worlds need fewer extra blockers
+				count = @extra_feature_blockers
 				add_deposit = d_failing_infrastructure
 			}
 		}
