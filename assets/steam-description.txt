@@ -12,7 +12,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 [*]Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
 [*]Remove alternate (blank) city graphics - mostly they were to try and get a static diplomacy backdrop but only worked for colonies with city size 4; set the [b]graphical_culture[/b] to not define a cityset
 [*]Add a static room that combines the migratory flock room with the static backdrop image - this room is now used by the predefined empire by default
-[*]Simply female clothing selector toi eliminate duplicate blank choices
+[*]Simply female clothing selector to eliminate duplicate blank choices
 [*]Update custom starting initializer for 3.0
 [*]Update prescripted empire for 3.0
     [list]
