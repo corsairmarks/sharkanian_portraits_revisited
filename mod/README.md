@@ -39,6 +39,7 @@ This mod should be added before the game has started.  If you remove it from a g
 ## Changelog
 
 * 1.0.0 Initial version
+* 1.0.1 Ensure correct `graphical_culture`
 
 ## Source Code
 
