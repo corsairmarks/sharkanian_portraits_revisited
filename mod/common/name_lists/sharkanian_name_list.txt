@@ -1,4 +1,5 @@
 ﻿SHARKA1 = {
+	category = "Sharkanian"
 	ship_names = {
 		generic = {
 			Charc-Thork Charc-Yyrmnat Charc-Lict Charc-Dov Charc-Chirt Charc-Obb Charc-Ell Charc-Umul Charc-Ahb Charc-Blal Charc-Alv Charc-Orth
@@ -60,15 +61,15 @@
 		machine_defense = {
 			sequential_name = "%O% Steel Guardians"
 		}
-		
+
 		machine_assault_1 = {
 			sequential_name = "%O% Steelteeth"
 		}
-		
+
 		machine_assault_2 = {
 			sequential_name = "%O% Steelteeth"
 		}
-		
+
 		machine_assault_3 = {
 			sequential_name = "%O% Steeljaw"
 		}
