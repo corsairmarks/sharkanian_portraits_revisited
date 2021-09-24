@@ -12,8 +12,8 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Remove alternate (blank) city graphics - mostly they were to try and get a static diplomacy backdrop but only worked for colonies with city size 4; set the `graphical_culture` to not define a cityset
 * Add a static room that combines the migratory flock room with the static backdrop image - this room is now used by the predefined empire by default
 * Simply female clothing selector to eliminate duplicate blank choices
-* Update custom starting initializer for 3.0
-* Update prescripted empire for 3.0
+* Update custom starting initializer
+* Update prescripted empire
     * Now has Origin: Prosperous Unification
     * Uses mammalian cities (the original fallback for this empire's graphical culture)
     * Could already randomly spawn
@@ -24,7 +24,7 @@ Compatible with any other mod that does not add the same portraits, species clas
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Not compatible with achievements.
+Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -40,6 +40,8 @@ This mod should be added before the game has started.  If you remove it from a g
 
 * 1.0.0 Initial version
 * 1.0.1 Ensure correct `graphical_culture`
+* 1.1.0 Mark as compatible with Stellaris version 3.1.* "Lem"
+    * Add new localisation keys introduced in 3.1
 
 ## Source Code
 

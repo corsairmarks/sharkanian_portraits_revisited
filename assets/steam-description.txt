@@ -6,15 +6,15 @@ There are other mods which contain the same portraits, so why should you choose 
 
 [h1]Changes[/h1]
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.1.*, the latest version when this was written.  Updates include:
 
 [list]
 [*]Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
 [*]Remove alternate (blank) city graphics - mostly they were to try and get a static diplomacy backdrop but only worked for colonies with city size 4; set the [b]graphical_culture[/b] to not define a cityset
 [*]Add a static room that combines the migratory flock room with the static backdrop image - this room is now used by the predefined empire by default
 [*]Simply female clothing selector to eliminate duplicate blank choices
-[*]Update custom starting initializer for 3.0
-[*]Update prescripted empire for 3.0
+[*]Update custom starting initializer
+[*]Update prescripted empire
     [list]
     [*]Now has Origin: Prosperous Unification
     [*]Uses mammalian cities (the original fallback for this empire's graphical culture)
@@ -28,7 +28,7 @@ Compatible with any other mod that does not add the same portraits, species clas
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Not compatible with achievements.
+Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
 
 [h3]Dependencies[/h3]
 
