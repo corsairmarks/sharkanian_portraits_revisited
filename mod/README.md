@@ -17,6 +17,9 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     * Now has Origin: Prosperous Unification
     * Uses mammalian cities (the original fallback for this empire's graphical culture)
     * Could already randomly spawn
+    * Added the Aquatic trait (thus requires the Aquatic Species Pack to play)
+    * You can still use Silfae's original portraits without the DLC, just not the prescripted empire
+   
 
 ## Compatibility
 
@@ -24,7 +27,7 @@ Compatible with any other mod that does not add the same portraits, species clas
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -40,8 +43,11 @@ This mod should be added before the game has started.  If you remove it from a g
 
 * 1.0.0 Initial version
 * 1.0.1 Ensure correct `graphical_culture`
-* 1.1.0 Mark as compatible with Stellaris version 3.1.* "Lem"
+* 1.1.0 Update for compatibility with Stellaris version 3.1 "Lem"
     * Add new localisation keys introduced in 3.1
+* 2.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
+    * Apply new mono-gender portrait rules
+    * Make the prescripted empire Aquatic (trait, ships, requires DLC)
 
 ## Source Code
 
