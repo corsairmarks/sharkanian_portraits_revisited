@@ -10,6 +10,7 @@ sharkanian1 = {
 		plural = "Sharkanians"
 		adjective = "Carcharian"
 		name_list = SHARKA1
+		trait = trait_aquatic
 		trait = trait_resilient
 		trait = trait_wasteful
 		trait = trait_strong
