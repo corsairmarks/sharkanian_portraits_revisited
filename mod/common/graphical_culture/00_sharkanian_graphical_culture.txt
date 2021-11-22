@@ -4,7 +4,9 @@
 #gfxculture avian_01
 
 sharkanian_01 = {
-	fallback = mammalian_01
+	randomized = { has_aquatics = yes }
+	selectable = { has_aquatics = yes }
+	fallback = aquatic_01
 	ship_color = yes
 	has_city_graphics = no
 	ship_lighting = {
@@ -13,7 +15,7 @@ sharkanian_01 = {
 		cam_light_3_dir = { 0.1 -0.1 0.1 }
 
 		intensity_near = 2.75	# Amount of light when near
-		intensity_far = 2.75		# Amount when far away
+		intensity_far = 2.75	# Amount when far away
 		near_value = 700		# Near threshold
 		far_value = 4000		# Far threshold
 		rim_start_near = 0.5
