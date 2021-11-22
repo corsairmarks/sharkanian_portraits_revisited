@@ -1,0 +1,129 @@
+portrait_groups = {
+	sharkanian = {
+		default = sharkanian_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					sharkanian_male_01
+					sharkanian_male_02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					sharkanian_female_01
+					sharkanian_female_02
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = { NOT = { species_gender = female } }
+				portraits = {
+					sharkanian_male_01
+					sharkanian_male_02
+				}
+			}
+			add = {
+				trigger = { NOT = { species_gender = male } }
+				portraits = {
+					sharkanian_female_01
+					sharkanian_female_02
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = { NOT = { species_gender = female } }
+				portraits = {
+					sharkanian_male_01
+					sharkanian_male_02
+				}
+			}
+			add = {
+				trigger = { NOT = { species_gender = male } }
+				portraits = {
+					sharkanian_female_01
+					sharkanian_female_02
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governors, envoys
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					sharkanian_female_01
+					sharkanian_female_02
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					sharkanian_male_01
+					sharkanian_male_02
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					sharkanian_female_01
+					sharkanian_female_02
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					sharkanian_male_01
+					sharkanian_male_02
+				}
+			}
+		}
+	}
+}
