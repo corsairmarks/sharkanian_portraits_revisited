@@ -1,6 +1,7 @@
 sharkanian1 = {
+	playable = has_aquatics
 	ship_prefix="T-SS"
-	spawn_enabled=  yes
+	spawn_enabled = yes
 	spawn_as_fallen = yes
 	ignore_portrait_duplication = yes
 	species = {
