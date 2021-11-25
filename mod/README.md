@@ -6,7 +6,7 @@ There are other mods which contain the same portraits, so why should you choose 
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert," the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
 * Remove alternate (blank) city graphics - mostly they were to try and get a static diplomacy backdrop but only worked for colonies with city size 4; set the `graphical_culture` to not define a cityset
@@ -15,11 +15,11 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Update custom starting initializer
 * Update prescripted empire
     * Now has Origin: Prosperous Unification
-    * Uses mammalian cities (the original fallback for this empire's graphical culture)
+    * Uses aquatic cities and ships
     * Could already randomly spawn
     * Added the Aquatic trait (thus requires the Aquatic Species Pack to play)
-    * You can still use Silfae's original portraits without the DLC, just not the prescripted empire
-   
+* You can use Silfae's custom Sharkanian portraits for your own empires without any DLC requirements
+* Support being able to choose a single-gender species (new in Stellaris 3.2)
 
 ## Compatibility
 
@@ -47,7 +47,9 @@ This mod should be added before the game has started.  If you remove it from a g
     * Add new localisation keys introduced in 3.1
 * 2.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
     * Apply new mono-gender portrait rules
-    * Make the prescripted empire Aquatic (trait, ships, requires DLC)
+    * Make the prescripted empire Aquatic (trait, ships, cities, requires DLC)
+    * Improve clothing selector (only females have clothes)
+    * Sharkanian species class defaults to molluscoid ships - this is so it doesn't require on the Aquatics DLC
 
 ## Source Code
 

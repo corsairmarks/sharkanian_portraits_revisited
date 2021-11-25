@@ -6,7 +6,7 @@ There are other mods which contain the same portraits, so why should you choose 
 
 [h1]Changes[/h1]
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.1.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert,"" the latest version when this was written.  Updates include:
 
 [list]
 [*]Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
@@ -17,11 +17,13 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 [*]Update prescripted empire
     [list]
     [*]Now has Origin: Prosperous Unification
-    [*]Uses mammalian cities (the original fallback for this empire's graphical culture)
+    [*]Uses aquatic cities and ships
     [*]Could already randomly spawn
     [*]Added the Aquatic trait (thus requires the Aquatic Species Pack to play)
     [*]You can still use Silfae's original portraits without the DLC, just not the prescripted empire
     [/list]
+[*]You can use Silfae's custom Sharkanian portraits for your own empires without any DLC requirements
+[*]Support being able to choose a single-gender species (new in Stellaris 3.2)
 [/list]
 
 [h2]Compatibility[/h2]
