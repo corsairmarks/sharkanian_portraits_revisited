@@ -1,38 +1,23 @@
 portrait_groups = {
 	sharkanian = {
-		default = sharkanian_male_01
+		default = sharkanian_female_01
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
-				trigger = {
-					ruler = {
-						OR = {
-							gender = male
-							gender = indeterminable
-						}
-					}
-				}
+				trigger = { ruler = { NOT = { gender = female } } }
 				portraits = {
 					sharkanian_male_01
 					sharkanian_male_02
 				}
 			}
 			add = {
-				trigger = {
-					ruler = {
-						OR = {
-							gender = female
-							gender = indeterminable
-						}
-					}
-				}
+				trigger = { ruler = { NOT = { gender = male } } }
 				portraits = {
 					sharkanian_female_01
 					sharkanian_female_02
 				}
 			}
+		}
 
-		}		
-		
 		#species scope
 		species = { #generic portrait for a species
 			add = {
@@ -49,8 +34,8 @@ portrait_groups = {
 					sharkanian_female_02
 				}
 			}
-		}		
-		
+		}
+
 		#pop scope
 		pop = { #for a specific pop
 			add = {
@@ -68,28 +53,18 @@ portrait_groups = {
 				}
 			}
 		}
-		
+
 		#leader scope
 		leader = { #scientists, generals, admirals, governors, envoys
 			add = {
-				trigger = {
-					OR = {
-						gender = female
-						gender = indeterminable
-					}
-				}
+				trigger = { NOT = { gender = male } }
 				portraits = {
 					sharkanian_female_01
 					sharkanian_female_02
 				}
 			}
 			add = {
-				trigger = {
-					OR = {
-						gender = male
-						gender = indeterminable
-					}
-				}
+				trigger = { NOT = { gender = female } }
 				portraits = {
 					sharkanian_male_01
 					sharkanian_male_02
@@ -97,28 +72,17 @@ portrait_groups = {
 			}
 		}
 
-			
-		#leader scope 
+		#leader scope
 		ruler = {
 			add = {
-				trigger = {
-					OR = {
-						gender = female
-						gender = indeterminable
-					}
-				}
+				trigger = { NOT = { gender = male } }
 				portraits = {
 					sharkanian_female_01
 					sharkanian_female_02
 				}
 			}
 			add = {
-				trigger = {
-					OR = {
-						gender = male
-						gender = indeterminable
-					}
-				}
+				trigger = { NOT = { gender = female } }
 				portraits = {
 					sharkanian_male_01
 					sharkanian_male_02
