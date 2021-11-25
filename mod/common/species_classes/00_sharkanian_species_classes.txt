@@ -4,6 +4,6 @@ SHARKA = {
 	portraits = {
 		"sharkanian"
 	}
-	graphical_culture = sharkanian_01
+	graphical_culture = molluscoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
