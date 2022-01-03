@@ -52,6 +52,7 @@ This mod should be added before the game has started.  If you remove it from a g
     * Improve clothing selector (only females have clothes)
     * Sharkanian species class defaults to molluscoid ships - this is so it doesn't require on the Aquatics DLC
 * 2.0.1 Don't break the base game diplomacy rooms - fix is to name the new file to load _before_ the built-in file
+* 2.0.2 Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
 
 ## Source Code
 
