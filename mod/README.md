@@ -13,7 +13,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Add a static room that combines the migratory flock room with the static backdrop image - this room is now used by the predefined empire by default
 * Simply female clothing selector to eliminate duplicate blank choices
 * Update custom starting initializer
-* Update prescripted empire
+* Update pre-scripted empire
     * Now has Origin: Prosperous Unification
     * Uses aquatic cities and ships
     * Could already randomly spawn
@@ -48,11 +48,13 @@ This mod should be added before the game has started.  If you remove it from a g
     * Add new localisation keys introduced in 3.1
 * 2.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
     * Apply new mono-gender portrait rules
-    * Make the prescripted empire Aquatic (trait, ships, cities, requires DLC)
+    * Make the pre-scripted empire Aquatic (trait, ships, cities, requires DLC)
     * Improve clothing selector (only females have clothes)
     * Sharkanian species class defaults to molluscoid ships - this is so it doesn't require on the Aquatics DLC
 * 2.0.1 Don't break the base game diplomacy rooms - fix is to name the new file to load _before_ the built-in file
-* 2.0.2 Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
+* 2.0.2 Small tweaks
+    * Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
+    * No longer ignore portrait duplication for the pre-scripted empire
 
 ## Source Code
 

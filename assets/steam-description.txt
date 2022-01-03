@@ -1,11 +1,9 @@
 [h1]Overview[/h1]
-
 Have you seen the hulking menace of Silfae's "Animated Shark Portraits" mod?  Do you wish that the gameplay elements were up-to-date so that you can play the Deep Tide as it was originally designed?  Then this mod is for you!
 
 There are other mods which contain the same portraits, so why should you choose this one?  Other mods don't include the prebuilt empire or custom system initializer, but this one does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 [h1]Changes[/h1]
-
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert,"" the latest version when this was written.  Updates include:
 [list]
 [*]Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
@@ -13,20 +11,18 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 [*]Add a static room that combines the migratory flock room with the static backdrop image - this room is now used by the predefined empire by default
 [*]Simply female clothing selector to eliminate duplicate blank choices
 [*]Update custom starting initializer
-[*]Update prescripted empire
+[*]Update pre-scripted empire
     [list]
     [*]Now has Origin: Prosperous Unification
     [*]Uses aquatic cities and ships
     [*]Could already randomly spawn
     [*]Added the Aquatic trait (thus requires the Aquatic Species Pack to play)
     [*]Removed Resilient trait to be able to afford Aquatic
-    [*]You can still use Silfae's original portraits without the DLC, just not the prescripted empire
     [/list]
 [*]You can use Silfae's custom Sharkanian portraits for your own empires without any DLC requirements
 [*]Support being able to choose a single-gender species (new in Stellaris 3.2)
 [/list]
 [h2]Compatibility[/h2]
-
 Compatible with any other mod that does not add the same portraits, species class, or art assets.
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
@@ -34,25 +30,20 @@ The Launcher will tell you that some mods are outdated - that is because the dep
 Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 [h3]Dependencies[/h3]
-
 In order for this mod to function, you [b]must[/b] install the following mod and load it before this one:
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1098915405]Animated Shark Portraits[/url] by Silfae
 
 [h3]When to Install[/h3]
-
 This mod should be added before the game has started.  If you remove it from a game in progress, your game may have graphical problems if any species was using the custom portraits.
 
 [h2]Changelog[/h2]
-
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2585030748]Change Notes[/url]
 
 [h2]Source Code[/h2]
-
 Hosted on [url=https://github.com/corsairmarks/sharkanian_portraits_revisited]GitHub[/url]
 
 [h1]Special Thanks[/h1]
-
 I was inspired to extend the original mod when I saw [url=https://steamcommunity.com/profiles/76561198037630876/myworkshopfiles/]Endugu[/url]'s [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1584824947]expansion[/url] of [url=https://steamcommunity.com/profiles/76561198021525667/myworkshopfiles/]Silfae[/url]'s [url=https://steamcommunity.com/workshop/filedetails/?id=881118424]Animated Xirmian Portraits[/url].  Modular mods that require downloading the original mod(s) help give credit where credit is due.
 
 An extra special thanks to Silfae for creating and sharing so many detailed, animated portraits for the community.
