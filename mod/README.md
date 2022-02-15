@@ -6,7 +6,7 @@ There are other mods which contain the same portraits, so why should you choose 
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.3 "Libra," the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
 * Remove alternate (blank) city graphics - mostly they were to try and get a static diplomacy backdrop but only worked for colonies with city size 4; set the `graphical_culture` to not define a cityset
@@ -28,7 +28,7 @@ Compatible with any other mod that does not add the same portraits, species clas
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -55,6 +55,7 @@ This mod should be added before the game has started.  If you remove it from a g
 * 2.0.2 Small tweaks
     * Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
     * No longer ignore portrait duplication for the pre-scripted empire
+* 2.1.0 Update for compatibility with Stellaris version 3.3 "Libra"
 
 ## Source Code
 
