@@ -1,9 +1,9 @@
 SHARKA = {
 	sharkanian = {
-		name = "Sharkanian"
-		plural = "Sharkanians"
-		home_planet = "Jetnik"
-		home_system = "Blaskar"
+		name = SPEC_SHARKA_sharkanian
+		plural = SPEC_SHARKA_sharkanian_plural
+		home_planet = SPEC_SHARKA_sharkanian_planet
+		home_system = SPEC_SHARKA_sharkanian_system
 		name_list = SHARKA1
 	}
 }
