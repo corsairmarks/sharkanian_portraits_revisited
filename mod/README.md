@@ -18,7 +18,8 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     * Uses aquatic cities and ships
     * Could already randomly spawn
     * Added the Aquatic trait (thus requires the Aquatic Species Pack to play)
-    * Removed Resilient trait to be able to afford Aquatic
+    * Removed Resilient trait in order to afford Aquatic
+    * Swapped Wasteful trait to Nonadaptive in order to afford Aquatic (as of Stellaris 3.6)
 * You can use Silfae's custom Sharkanian portraits for your own empires without any DLC requirements
 * Support being able to choose a single-gender species (new in Stellaris 3.2)
 
