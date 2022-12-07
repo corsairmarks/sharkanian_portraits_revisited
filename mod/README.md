@@ -61,6 +61,7 @@ This mod should be added before the game has started.  If you remove it from a g
 * 4.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
     * Minor namelist updates
     * Update `hair` to `attachment`
+    * Alter prescripted species: remove Wasteful and add Nonadaptive in order to compensate for Aquatic price increase
 
 ## Source Code
 
