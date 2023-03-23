@@ -35,7 +35,12 @@ planet_event = {
 			}
 		}
 		else_if = {
-			limit = { is_planet_class = pc_nuked }
+			limit = {
+				OR = {
+					is_planet_class = pc_nuked
+					is_pd_nuked = yes
+				}
+			}
 			while = {
 				count = @extra_feature_blockers
 				add_deposit = d_tomb_world_wasteland
@@ -49,7 +54,12 @@ planet_event = {
 			}
 		}
 		else_if = {
-			limit = { is_planet_class = pc_gaia }
+			limit = {
+				OR = {
+					is_planet_class = pc_gaia
+					is_pd_gaia = yes
+				}
+			}
 			while = {
 				count = @extra_size_blockers
 				random_list = {

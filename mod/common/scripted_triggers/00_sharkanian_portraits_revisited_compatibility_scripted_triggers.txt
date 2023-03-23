@@ -1,0 +1,14 @@
+### Planetary Diversity ###
+# https://steamcommunity.com/sharedfiles/filedetails/?id=819148835
+
+# this = planet
+is_pd_nuked = {
+	optimize_memory
+	always = no
+}
+
+# this = planet
+is_pd_gaia = {
+	optimize_memory
+	always = no
+}
