@@ -1,0 +1,31 @@
+# file renamed so that portraits appear after all built-in portraits
+
+# used only for namelists
+SHARKA = {
+	randomized = no
+	possible = { always = no }
+	possible_secondary = { always = no }
+	graphical_culture = molluscoid_01
+}
+
+# species classes are additive as of Stellaris 3.8 "Gemini"
+AQUATIC = {
+	custom_portraits = {
+		randomized = { has_aquatics = yes }
+		playable = { has_aquatics = yes }
+		portraits = {
+			"sharkanian"
+		}
+	}
+}
+
+# species classes are additive as of Stellaris 3.8 "Gemini"
+MOL = {
+	custom_portraits = {
+		randomized = { has_aquatics = no }
+		playable = { has_aquatics = no }
+		portraits = {
+			"sharkanian"
+		}
+	}
+}
